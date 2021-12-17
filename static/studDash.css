@@ -1,0 +1,222 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+body {
+    /* min-height: 100vh; */
+    background-image: url("../static/educ3.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+a {
+	text-decoration: none;
+}
+
+h3 {
+	color: #999; 
+}
+
+.btn {
+	background-color: cornflowerblue;
+	color: white;
+	padding: 5px 10px;
+	text-align: center;
+}
+
+.btn:hover {
+	color: blueviolet;
+	background: white;
+	padding: 3px 8px;
+	border: 2px solid blue;
+}
+
+.title {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding: 15px 10px;
+	border-bottom: 2px solid #999;
+	margin-bottom: 20px;
+}
+
+.side-menu {
+	position: fixed;
+	background:  rgb(75, 75, 230);
+	width: 20vw;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	color: white;
+}
+
+.brand-name{
+	height: 10vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.side-menu ul {
+	max-width: 80%;
+	margin: 0 auto;
+}
+
+.side-menu li {
+	font-size: 16px;
+	display: flex;
+	align-items: center;
+	margin: 20px 0;
+}
+
+.side-menu img {
+	width: 30px;
+	height: 30px;
+}
+
+.side-menu li:hover{
+	background: white;
+	color: rgb(162, 162, 191);
+}
+
+.container {
+	position: absolute;
+	right: 0;
+	width: 80vw;
+	height: 10vh;
+    background-image: url("static/educ1.jpeg");
+	z-index: 1;
+
+}
+
+.header {
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 80vw;
+	height: 10vh;
+	background: rgb(178, 185, 247);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+}
+
+.header .nav {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin: 0 auto;
+}
+
+.header .red {
+	background-color: red;
+}
+
+.search {
+	width: 200px;
+	display: flex;
+}
+
+.submit-btn {
+	width: 10%;
+}
+
+.search button {
+	width: 40px;
+	height: 40px;
+	border: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.search input {
+	width: 100%;
+}
+
+.user {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 250px;
+}
+
+.content {
+	margin-top: 10vh;
+	min-height: 90vh;
+    background-image: url("static/quiz.test.jpeg");
+}
+
+.content {
+	margin-left: 20vw;
+	padding: 20px 15px;
+	width: 100%;
+}
+
+.cards {
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+
+.cards img {
+	width: 290px;
+	height: 175px;
+}
+
+.card {
+	background: white;
+	margin: 20px 10px;
+	box-shadow: 0 4px 8px rgba(0,0,0,0.3), 0 6px 20px 0 rgba(0,0,0,0.3);
+	cursor: pointer;
+}
+
+.content .content-2 {
+	min-height: 60vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+	flex-wrap: wrap;
+}
+
+.students-score {
+	min-height: 50vh;
+	flex: 5;
+	background: white;
+	margin: 0 25px 25px 25px;
+	box-shadow: 0 4px 8px rgba(0,0,0,0.3), 0 6px 20px 0 rgba(0,0,0,0.3);
+}
+.students-score table tr {
+	margin-bottom: 100px;
+}
+
+.students-score table {
+	width: 100%;
+	text-align: left;
+	padding: 20px;
+}
+
+.new-students {
+	flex: 2;
+	background: white;
+	margin: 0 25px;
+	padding: 0 35px;
+	min-height: 50vh;
+	box-shadow: 0 4px 8px rgba(0,0,0,0.3), 0 6px 20px 0 rgba(0,0,0,0.3);
+}
+
+.submit-btn img {
+	width: 20px;
+	height: 20px;
+}
+
+.user img {
+	width: 40px;
+	height: 40px;
+}
